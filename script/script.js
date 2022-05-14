@@ -76,3 +76,14 @@ hamburger.addEventListener('click', function(e) {
 navCross.addEventListener('click', function(e) {
   mblNav.classList.add('mobile-nav')
 })
+
+// Slider
+
+var counter = 1;
+setInterval(function () {
+  document.getElementById('radio' + counter).checked = true;
+  counter++;
+  if (counter > 4) {
+    counter = 1;
+  }
+}, 5000);
