@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <nav id="nav" class="nav">
+  <nav id="nav" class="nav desktop-nav">
     <div class="nav-container container-xxl">
       <ul class="nav-logo">
         <li class="nav-logo-wrapper">
@@ -28,15 +28,46 @@
         <li class="nav-link"><a class="nav-item" href="#team">Team</a></li>
         <li class="nav-link"><a class="nav-item" href="#security">Security</a></li>
         <li class="nav-link"><a class="nav-item" href="#tokenomics">Tokenomics</a></li>
-        <li class="nav-link"><a href="#wallet">Wallet</a></li>
+        <li class="nav-link"><a class="nav-item" href="#wallet">Wallet</a></li>
         <button class="btn nav-btn">Buy $PIGGY</button>
       </ul>
     </div>
   </nav>
 
+  <!-- Mobile Nav -->
+
+  <nav id="nav" class="nav mbl-hamburger">
+    <div class="nav-container container-xxl">
+      <ul class="nav-logo">
+        <li class="nav-logo-wrapper">
+          <a href="#"><img src="./assets/img/logo.PNG" alt="LOGO"></a>
+        </li>
+      </ul>
+      <ul>
+        <button class="hamburger-icon">
+          <img src="./assets/img/hamburger.png" alt="hamburger">
+        </button>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="mobile-nav">
+    <ul class="nav-links mbl-links">
+      <div class="cross">
+        <li class="nav-link mbl-link"><a class="nav-item" href="#overview">Overview</a></li>
+        <button class="nav-cross-btn">&times;</button>
+      </div>
+      <li class="nav-link mbl-link"><a class="nav-item" href="#team">Team</a></li>
+      <li class="nav-link mbl-link"><a class="nav-item" href="#security">Security</a></li>
+      <li class="nav-link mbl-link"><a class="nav-item" href="#tokenomics">Tokenomics</a></li>
+      <li class="nav-link mbl-link"><a href="#wallet">Wallet</a></li>
+      <button class="btn nav-btn">Buy $PIGGY</button>
+    </ul>
+  </div>
+
   <section class="hero">
     <div class="container container-xxl">
-      <div class="row">
+      <div class="row hero__row">
         <div class="col-8 col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-8">
           <div class="hero__left--section">
             <div class="hero__content">
@@ -89,11 +120,9 @@
     </div>
   </section>
 
-  <!-- Dawood Code -->
-
   <section class="stake">
     <div class="container container-xxl">
-      <div class="row">
+      <div class="row stake__row--reverse">
         <div class="col-8">
           <div class="stake-content">
             <h1 class="stake-title">Stake to Earn</h1>
@@ -112,7 +141,7 @@
 
   <section class="explore">
     <div class="container container-xxl">
-      <div class="row">
+      <div class="row explore__row-column">
         <div class="col-4">
           <div class="explore-img-wrapper">
             <img class="explore-img" src="./assets/img/explore.png" alt="Explore">
@@ -133,7 +162,7 @@
 
   <section class="swap">
     <div class="container container-xxl">
-      <div class="row">
+      <div class="row stake__row--reverse">
         <div class="col-8">
           <div class="swap-content">
             <h1 class="swap-title">Trustless Swaps</h1>
@@ -152,7 +181,7 @@
 
   <section class="fee">
     <div class="container container-xxl">
-      <div class="row">
+      <div class="row explore__row-column">
         <div class="col-4">
           <div class="fee-img-wrapper">
             <img class="fee-img" src="./assets/img/fee.png" alt="Network-fee">
@@ -171,7 +200,7 @@
 
   <section class="market">
     <div class="container container-xxl">
-      <div class="row">
+      <div class="row stake__row--reverse">
         <div class="col-8">
           <div class="market-content">
             <h1 class="market-title">NFTs Market</h1>
@@ -198,7 +227,7 @@
       </div>
       <div class="cards">
         <div class="row">
-          <div class="col-6 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
+          <div class="col-6 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 security__card-col">
             <div class="card">
               <div class="card__img--showcase">
                 <img src="./assets/img/self.png" class="card-img">
@@ -209,7 +238,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
+          <div class="col-6 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 security__card-col">
             <div class="card recovery--card">
               <div class="card__img--showcase">
                 <img src="./assets/img/recovery.png" class="card-img">
@@ -220,7 +249,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
+          <div class="col-6 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 security__card-col">
             <div class="card">
               <div class="card__img--showcase">
                 <img src="./assets/img/privacy.png" class="card-img">
@@ -231,7 +260,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
+          <div class="col-6 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 security__card-col">
             <div class="card biometric--card">
               <div class="card__img--showcase">
                 <img src="./assets/img/biometric.png" class="card-img">
@@ -242,7 +271,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
+          <div class="col-6 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 security__card-col">
             <div class="card">
               <div class="card__img--showcase">
                 <img src="./assets/img/ledger.png" class="card-img">
@@ -533,6 +562,7 @@
       </div>
 
       <!-- circle -->
+
       <div class="row">
         <div class="col-6 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
           <div class="piggy__bottom--card">
@@ -564,7 +594,7 @@
           <p class="roadmap-hdr-desc">Explore and learn more about piggy wallet development progress</p>
         </div>
       </div>
-      <div class="row">
+      <div class="row roadmap-row">
         <div class="roadmap-col-wrapper">
           <div class="roadmap-content">
             <div class="roadmap-wrapper">
@@ -698,7 +728,7 @@
           <div class="faq-wrapper">
             <div class="faq-content">
               <h1 class="faq-conten-title">Why launching a wallet with gateway to Cardano blockchain Apps?</h1>
-              <button class="active-btn faq-btn">+</button>
+              <button id="faq-btn" class="active-btn faq-btn">+</button>
             </div>
             <div class="faq-desc-wrapper">
               <p class="faq-desc"> PIGGY WALLET is a non-custodial smart crypto wallet and open-source to
@@ -713,7 +743,7 @@
           <div class="faq-wrapper">
             <div class="faq-content">
               <h1 class="faq-conten-title">What is Piggy Wallet App?</h1>
-              <button class="active-btn faq-btn">+</button>
+              <button id="faq-btn" class="active-btn faq-btn">+</button>
             </div>
             <div class="faq-desc-wrapper">
               <p class="faq-desc"> PIGGY WALLET is a non-custodial smart crypto wallet and open-source to
@@ -728,7 +758,7 @@
           <div class="faq-wrapper">
             <div class="faq-content">
               <h1 class="faq-conten-title">Will hardware wallets be supported?</h1>
-              <button class="active-btn faq-btn">+</button>
+              <button id="faq-btn" class="active-btn faq-btn">+</button>
             </div>
             <div class="faq-desc-wrapper">
               <p class="faq-desc"> PIGGY WALLET is a non-custodial smart crypto wallet and open-source to
@@ -743,7 +773,7 @@
           <div class="faq-wrapper">
             <div class="faq-content">
               <h1 class="faq-conten-title">How does Piggy token benefit Piggy wallet community?</h1>
-              <button class="active-btn faq-btn">+</button>
+              <button id="faq-btn" class="active-btn faq-btn">+</button>
             </div>
             <div class="faq-desc-wrapper">
               <p class="faq-desc"> PIGGY WALLET is a non-custodial smart crypto wallet and open-source to
@@ -758,7 +788,7 @@
           <div class="faq-wrapper">
             <div class="faq-content">
               <h1 class="faq-conten-title">How Many $PWT Are In Existence?</h1>
-              <button class="active-btn faq-btn">+</button>
+              <button id="faq-btn" class="active-btn faq-btn">+</button>
             </div>
             <div class="faq-desc-wrapper">
               <p class="faq-desc"> PIGGY WALLET is a non-custodial smart crypto wallet and open-source to
@@ -772,7 +802,7 @@
     </div>
   </section>
 
-  <section class="integration">
+  <section class="integration" id="wallet">
     <div class="container container-mid">
       <div class="row">
         <div class="col-12">
@@ -780,12 +810,12 @@
         </div>
         <div class="col-6">
           <button class="btn btn-wallet">
-            <img src="./assets/img/wallet.png" alt="Wallet">
+            <a href="https://daedaluswallet.io/"> <img src="./assets/img/wallet.png" alt="Wallet"></a>
           </button>
         </div>
         <div class="col-6">
           <button class="btn btn-wallet-logo">
-            <img src="./assets/img/wallet-logo.png" alt="Wallet-logo">
+            <a href="https://yoroi-wallet.com/"><img src="./assets/img/wallet-logo.png" alt="Wallet-logo"></a>
           </button>
         </div>
       </div>
@@ -799,40 +829,48 @@
       </div>
       <div class="row">
         <div class="col-3 col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3">
-          <div class="person__content pc-mb-64">
+          <div class="person__content pc-mb-64 showSingle">
             <div class="person__img">
               <img src="assets/img/hung.png" class="person--img">
             </div>
             <div class="person__info">
               <h5 class="person__name">Hung Attavong</h5>
               <p class="person__position">Blockchain Consultant</p>
-              <p class="person__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deserunt tenetur
-              </p>
             </div>
+            <p class="person__desc hidden">Yokin Wan
+              Senior Designer
+
+              Yokin has a strong background in writing and designing in Tech related projects, Over the years she has
+              engineered her experience to blockchain technology with passion and love to bridge the UX gap in crypto
+              space. She is the senior designer in the team as we wish to leverage our general experience towards the
+              success of this project.
+            </p>
           </div>
         </div>
         <div class="col-3 col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3">
-          <div class="person__content pc-mb-64">
+          <div class="person__content pc-mb-64 showSingle">
             <div class="person__img">
               <img src="assets/img/umair.png" class="person--img">
             </div>
             <div class="person__info">
               <h5 class="person__name">Umair Imtiaz</h5>
               <p class="person__position">Software Engineer</p>
-              <p class="person__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deserunt tenetur
+              <p class="person__desc hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deserunt
+                tenetur
               </p>
             </div>
           </div>
         </div>
         <div class="col-3 col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3">
-          <div class="person__content pc-mb-64">
+          <div class="person__content pc-mb-64 showSingle">
             <div class="person__img">
               <img src="assets/img/yokin.png" class="person--img">
             </div>
             <div class="person__info">
               <h5 class="person__name">Yokin Wan</h5>
               <p class="person__position">Senior Designer</p>
-              <p class="person__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deserunt tenetur
+              <p class="person__desc hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deserunt
+                tenetur
               </p>
             </div>
           </div>
@@ -845,7 +883,8 @@
             <div class="person__info">
               <h5 class="person__name">Moeed Shahid</h5>
               <p class="person__position">UI/UX Engineer</p>
-              <p class="person__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deserunt tenetur
+              <p class="person__desc hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deserunt
+                tenetur
               </p>
             </div>
           </div>
@@ -858,7 +897,8 @@
             <div class="person__info">
               <h5 class="person__name">M. Atif Abdul Sattar</h5>
               <p class="person__position">Designer</p>
-              <p class="person__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deserunt tenetur
+              <p class="person__desc hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deserunt
+                tenetur
               </p>
             </div>
           </div>
@@ -871,7 +911,8 @@
             <div class="person__info">
               <h5 class="person__name">Asfand Yar Khan</h5>
               <p class="person__position">Web Developer</p>
-              <p class="person__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deserunt tenetur
+              <p class="person__desc hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deserunt
+                tenetur
               </p>
             </div>
           </div>
@@ -884,7 +925,7 @@
             <div class="person__info">
               <h5 class="person__name">Rizwan Atta</h5>
               <p class="person__position">React Native Developer</p>
-              <p class="person__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+              <p class="person__desc hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
                 deserunt tenetur
               </p>
             </div>
@@ -925,7 +966,7 @@
             <li class="footer__nav-link"><a href="#">Whitepaper</a></li>
             <li class="footer__nav-link"><a href="#">FAQs</a></li>
           </ul>
-          <ul class="footer__nav--links">
+          <ul class="footer__nav--links fnl-mb-0">
             <li class="footer__nav-link"><a href="#">Wallet</a></li>
             <li class="footer__nav-link"><a href="#">Team</a></li>
             <li class="footer__nav-link"><a href="#">Github</a></li>
@@ -938,5 +979,24 @@
 </body>
 
 <script src="./script/script.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script>
+  jQuery(function () {
+    jQuery('#showall').click(function () {
+      jQuery('.targetDiv').show();
+    });
+    jQuery('.showSingle').click(function () {
+      jQuery('.targetDiv').hide();
+      jQuery('#div' + $(this).attr('target')).show();
+    });
+  });
+</script>
+
+
 
 </html>
