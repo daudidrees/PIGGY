@@ -1424,3 +1424,130 @@ body {
     padding: 0 10px 0 0;
   }
 }
+
+@media (max-width: 600px) {
+  .btn-wallet > a > img {
+    width: 250px;
+  }
+
+  .btn-wallet-logo {
+    padding: 16.5px 56px;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .stake-desc, .explore-desc, .swap-desc, .fee-desc, .market-desc {
+    font-size: 18px;
+  }
+
+  .security__para {
+    font-size: 18px;
+  }
+
+  .piggy__card--text {
+    font-size: 14px;
+  }
+
+  .overview__heading {
+    font-size: 36px;
+  }
+
+  .overview__para {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .overview {
+    margin-bottom: 50px;
+  }
+
+  .hero {
+    padding-top: 0;
+    margin-bottom: 30px;
+  }
+
+  .stake, .explore, .swap, .fee, .market {
+    margin-bottom: 40px;
+  }
+
+  .stake-title, .explore-title, .swap-title, .fee-title, .market-title {
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 15px;
+  }
+
+  .security__heading {
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+
+  .piggy-heading {
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  .cards {
+    margin-bottom: 40px;
+  }
+
+  .piggy__text {
+    margin-bottom: 40px;
+  }
+
+  .piggy__card,
+  .piggy__bottom--card {
+    margin-bottom: 40px;
+  }
+
+  .piggy__bottom--card-text {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .roadmap-title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .roadmap-hdr-desc {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 40px;
+  }
+
+  .roadmap {
+    margin-bottom: 40px;
+  }
+
+  .faq-title,
+  .team__heading {
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  .faq-wrapper {
+    padding: 20px 20px 20px 20px;
+  }
+
+  .faq,
+  .integration,
+  .team__content {
+    margin-bottom: 40px;
+  }
+
+  .integration-title {
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 40px;
+  }
+
+  .team {
+    margin-bottom: 40px ;
+  }
+
+  .footer {
+    padding-left: 16px;
+  }
+}
