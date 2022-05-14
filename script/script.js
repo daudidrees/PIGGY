@@ -15,30 +15,47 @@ document.querySelector('.nav-links').addEventListener('click', function(e) {
   }
 });
 
-
 function hideAllFaqs (faqs) {
   faqs.forEach(faq => {
-    if(!faq.nextElementSibling.classList.toggle('show')) {
-      faq.nextElementSibling.classList.add('show')
-    } else {
       faq.nextElementSibling.classList.remove('show')
-    }
   })
 }
 
 message.forEach(faq => {
   faq.addEventListener('click', function () {
-    hideAllFaqs(message)
-    const active = this.nextElementSibling.classList.toggle('show')
+    const el = this.nextElementSibling
+
+    if (el.classList.contains('show')) {
+      hideAllFaqs(message)
+    } else {
+      hideAllFaqs(message)
+      el.classList.add('show')
+    }
   })
 })
 
-// personContent.forEach(el => {
-//   el.addEventListener('click', function() {
-//     personDesc.forEach(el => {
-//     })
-//   })
-// })
+function hideAllDescriptions (descriptions) {
+  descriptions.forEach(description => {
+    const descEl = description.querySelector('.person__desc')
+    if (!descEl) return
+    descEl.classList.add('hidden')
+  })
+}
+
+personContent.forEach(el => {
+  el.addEventListener('click', function() {
+    const descEl = this.querySelector('.person__desc')
+
+    if (!descEl) return
+
+    if (descEl.classList.contains('hidden')) {
+      hideAllDescriptions(personContent)
+      descEl.classList.remove('hidden')
+    } else {
+      hideAllDescriptions(personContent)
+    }
+  })
+})
 
 // personContent.forEach(el =>{
 //   el.addEventListener("click", function() {
