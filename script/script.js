@@ -33,14 +33,12 @@ message.forEach(faq => {
   })
 })
 
-personContent.forEach(el => {
-  el.addEventListener('click', function() {
-    personDesc.forEach(el => {
-      if(el.classList.contain('hidden')) {
-      }
-    })
-  })
-})
+// personContent.forEach(el => {
+//   el.addEventListener('click', function() {
+//     personDesc.forEach(el => {
+//     })
+//   })
+// })
 
 // personContent.forEach(el =>{
 //   el.addEventListener("click", function() {

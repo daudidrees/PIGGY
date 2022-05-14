@@ -1119,6 +1119,49 @@ body {
   .footer__nav--links {
     margin: 0 60px 0 0;
   }
+
+  .hero {
+    padding-top: 70px;
+    margin-bottom: 80px;
+  }
+
+  .overview {
+    margin-bottom: 70px;
+  }
+
+  .stake, .explore, .swap, .fee, .market {
+    margin-bottom: 70px;
+  }
+
+  .cards {
+    margin-bottom: 70px;
+  }
+
+  .piggy__text,
+  .circle,
+  .piggy__bottom--card {
+    margin-bottom: 50px;
+  }
+
+  .roadmap-hdr-desc {
+    margin-bottom: 50px;
+  }
+
+  .roadmap {
+    margin-bottom: 30px;
+  }
+
+  .faq {
+    margin-bottom: 70px;
+  }
+
+  .integration {
+    margin-bottom: 70px;
+  }
+
+  .team {
+    margin-bottom: 70px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -1357,6 +1400,42 @@ body {
   .fnl-mb-0 {
     margin: 0;
   }
+
+  .hero {
+    padding-top: 50px;
+    margin-bottom: 70px;
+  }
+
+  .overview {
+    margin-bottom: 70px;
+  }
+
+  .stake, .explore, .swap, .fee, .market {
+    margin-bottom: 70px;
+  }
+
+  .cards {
+    margin-bottom: 70px;
+  }
+
+  .piggy__bottom--card,
+  .roadmap {
+    margin-bottom: 70px;
+  }
+
+  .roadmap-hdr-desc {
+    margin-bottom: 50px;
+  }
+
+  .faq {
+    margin-bottom: 70px;
+  }
+
+  .integration,
+  .team {
+    margin-bottom: 70px;
+  }
+
 }
 
 @media screen and (max-width: 600px) {
