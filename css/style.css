@@ -570,7 +570,21 @@ body {
   align-items: center;
 }
 
+.person__desc {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ABABAC;
+  display: none;
+}
+
+.person-desc-active {
+  display: block;
+}
+
 .pc-mb-64 {margin: 0 0 64px 0;}
+
 .person__img {
   max-width: 188px;
   height: 188px;
@@ -597,6 +611,7 @@ body {
   line-height: 32px;
   text-align: center;
   color: #ABABAC;
+  margin-bottom: 10px;
 }
 
 .team__bottom--content {
