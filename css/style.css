@@ -1435,7 +1435,7 @@ body {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
 
   .stake-desc, .explore-desc, .swap-desc, .fee-desc, .market-desc {
     font-size: 18px;
