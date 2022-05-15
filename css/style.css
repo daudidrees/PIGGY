@@ -1893,3 +1893,30 @@ body {
     left: -36%;
   }
 }
+@media (max-width: 350px) {
+  .circle .text {
+    top: 15px;
+    left: -39%;
+  }
+}
+
+@media (max-width: 340px) {
+  .circle .text {
+    top: 15px;
+    left: -41%;
+  }
+}
+
+@media (max-width: 330px) {
+  .circle .text {
+    top: 15px;
+    left: -44%;
+  }
+}
+
+@media (max-width: 320px) {
+  .circle .text {
+    top: 15px;
+    left: -46%;
+  }
+}
