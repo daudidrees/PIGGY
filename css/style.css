@@ -947,7 +947,7 @@ body {
   }
 
   .hamburger-icon > img{
-    background: gray;
+    background: none;
     max-width: 40px;
     max-height: 40px;
     outline: none;
@@ -1703,6 +1703,10 @@ body {
   .btn-wallet-logo > a > img {
     width: 176px;
   }
+
+  .piggy-col {
+    flex-basis: 50% !important;
+  }
 }
 
 @media (min-width: 575px) {
@@ -1730,6 +1734,16 @@ body {
 
   .person__desc {
     font-size: 18px;
+  }
+
+  .faq-conten-title {
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+
+  .faq-desc {
+    font-size: 14px;
   }
 }
 
@@ -1898,6 +1912,13 @@ body {
     top: 15px;
     left: -39%;
   }
+
+  .piggy__card--title {
+    font-size: 10px;
+  }
+  .piggy__card--text {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 340px) {
@@ -1918,5 +1939,109 @@ body {
   .circle .text {
     top: 15px;
     left: -46%;
+  }
+}
+
+/* Off - Menu */
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.mbl-btn {
+  margin: 8px 8px 8px 32px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+      padding-top: 15px;
+  }
+
+  .sidenav a {
+      font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .circle .text {
+    left: -50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .circle .text {
+    left: -65px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .circle .text {
+    left: -75px;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .circle .text {
+    left: -90px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .circle .text {
+    left: -100px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .circle .text {
+    left: -115px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .circle .text {
+    left: -125px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .circle .text {
+    left: -135px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .circle .text {
+    left: -145px;
   }
 }

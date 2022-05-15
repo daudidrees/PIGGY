@@ -77,14 +77,6 @@ personContent.forEach((personEl, index) => {
   })
 })
 
-hamburger.addEventListener('click', function(e) {
-  mblNav.classList.toggle('mobile-nav');
-})
-
-navCross.addEventListener('click', function(e) {
-  mblNav.classList.add('mobile-nav')
-})
-
 // Slider
 
 var counter = 1;
@@ -95,3 +87,13 @@ setInterval(function () {
     counter = 1;
   }
 }, 1500);
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
