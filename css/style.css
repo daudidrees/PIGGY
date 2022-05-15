@@ -1045,6 +1045,11 @@ body {
 }
 
 @media screen and (max-width: 1280px) {
+  .hero {
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+
   .hero__heading {
     font-size: 40px;
     line-height: 55px;
@@ -1076,6 +1081,14 @@ body {
 
   .overview__showcase {
     max-width: 1024px;
+  }
+
+  .stake,
+  .explore,
+  .swap,
+  .fee,
+  .market {
+    margin-bottom: 100px;
   }
 
   .circle .text {
@@ -1257,11 +1270,6 @@ body {
     margin: 0 60px 0 0;
   }
 
-  .hero {
-    padding-top: 70px;
-    margin-bottom: 80px;
-  }
-
   .overview {
     margin-bottom: 70px;
   }
@@ -1344,6 +1352,22 @@ body {
 
   .footer__nav--links {
     margin: 0 50px 0 0;
+  }
+
+  .btn-wallet {
+    padding: 21.88px 19px;
+  }
+
+  .btn-wallet img {
+    width: 300px;
+  }
+
+  .btn-wallet-logo {
+    padding: 31.1px 106.5px;
+  }
+
+  .btn-wallet-logo img {
+    width: 125px;
   }
 }
 
@@ -1603,6 +1627,15 @@ body {
     height: 320px;
   }
 
+  .circle .text {
+    top: 16px;
+    left: -2%;
+  }
+
+  .circle .text span {
+    font-size: 9px;
+  }
+
   .security__card-col {
     flex-basis: 100% !important;
   }
@@ -1643,17 +1676,7 @@ body {
   .footer__text {
     padding: 0 10px 0 0;
   }
-}
 
-@media (min-width: 575px) {
-  .person_desc__mobile { display: none !important; }
-}
-
-@media (max-width: 575px) {
-  .person_desc__desktop { display: none !important; }
-}
-
-@media (max-width: 600px) {
   .btn-wallet > a > img {
     width: 250px;
   }
@@ -1661,6 +1684,14 @@ body {
   .btn-wallet-logo {
     padding: 16.5px 56px;
   }
+
+  .btn-wallet-logo > a > img {
+    width: 176px;
+  }
+}
+
+@media (min-width: 575px) {
+  .person_desc__mobile { display: none !important; }
 }
 
 @media (max-width: 575px) {
@@ -1673,6 +1704,13 @@ body {
   .person__position {
     font-size: 20px;
     line-height: 24px;
+  }
+
+  .person_desc__desktop { display: none !important; }
+
+  .circle .text {
+    top: 16px;
+    left: -4%;
   }
 
   .person__desc {
@@ -1705,6 +1743,11 @@ body {
 
   .overview {
     margin-bottom: 50px;
+  }
+
+  .circle .text {
+    top: 16px;
+    left: -14%;
   }
 
   .hero {
@@ -1798,5 +1841,40 @@ body {
 
   .person__img > img {
     object-fit: contain;
+  }
+}
+
+@media (max-width: 541px) {
+  .circle .text {
+    top: 16px;
+    left: -7%;
+  }
+}
+
+@media (max-width: 415px) {
+  .circle .text {
+    top: 14px;
+    left: -25%;
+  }
+}
+
+@media (max-width: 394px) {
+  .circle .text {
+    top: 15px;
+    left: -29%;
+  }
+}
+
+@media (max-width: 376px) {
+  .circle .text {
+    top: 15px;
+    left: -32%;
+  }
+}
+
+@media (max-width: 361px) {
+  .circle .text {
+    top: 15px;
+    left: -36%;
   }
 }
