@@ -789,22 +789,35 @@ body {
   overflow: hidden;
 }
 
-.slides{
+.slides-wrapper {
+  position: relative;
+}
+
+.slides-wrapper-phone {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+}
+
+.slides {
   width: 500%;
   height: 800px;
   display: flex;
 }
 
-.slides input{
+.slides input {
   display: none;
 }
 
-.slide{
+.slide {
+  opacity: 1;
   width: 20%;
   transition: 2s;
 }
 
-.slide img{
+.slide img {
   width: 100%;
   height: 800px;
 }
@@ -854,8 +867,8 @@ body {
 /*css for automatic navigation*/
 
 .navigation-auto{
-  position: absolute;
   display: flex;
+  position: absolute;
   /* width: 800px; */
   justify-content: center;
   margin-top: 460px;
@@ -895,6 +908,11 @@ body {
 .mbl-links,
 .mbl-hamburger {
   display: none;
+}
+
+[data-chart-circle] {
+  transition: stroke-dasharray 1s;
+  transition-delay: 0.5s;
 }
 
 @media (max-width: 990px) {
@@ -1620,6 +1638,23 @@ body {
 
   .btn-wallet-logo {
     padding: 16.5px 56px;
+  }
+}
+
+@media (max-width: 575px) {
+
+  .person__name {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .person__position {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .person__desc {
+    font-size: 18px;
   }
 }
 
