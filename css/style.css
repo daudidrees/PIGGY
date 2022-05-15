@@ -538,7 +538,7 @@ body {
 }
 
 .btn-wallet-logo {
-  padding: 35px 130px;
+  padding: 33.5px 130px;
   background: #4262D3;
   border-radius: 0;
 }
@@ -578,13 +578,14 @@ body {
   text-align: left;
   color: #ABABAC;
   border-top: #00c77a 1px solid;
-  padding: 20px;
+  padding: 20px !important;
+  margin-bottom: 10px;
   opacity: 1;
   background: rgba(255,255,255,.1);
 }
 
 .hidden {
- display: none;
+ display: none !important;
 }
 
 .pc-mb-64 {margin: 0 0 64px 0;}
@@ -997,6 +998,14 @@ body {
     border: none;
     color: #fff;
   }
+
+  .pc-mb-64 {
+    margin-bottom: 45px;
+  }
+
+  .person__desc {
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 1440px) {
@@ -1115,6 +1124,7 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
+
   .hero__heading {
     font-size: 32px;
     line-height: 50px;
@@ -1288,6 +1298,10 @@ body {
 
   .team {
     margin-bottom: 70px;
+  }
+
+  .wallet-mb {
+    margin-bottom: 20px;
   }
 }
 
@@ -1629,6 +1643,14 @@ body {
   .footer__text {
     padding: 0 10px 0 0;
   }
+}
+
+@media (min-width: 575px) {
+  .person_desc__mobile { display: none !important; }
+}
+
+@media (max-width: 575px) {
+  .person_desc__desktop { display: none !important; }
 }
 
 @media (max-width: 600px) {
