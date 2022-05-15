@@ -579,7 +579,7 @@ body {
   color: #ABABAC;
   border-top: #00c77a 1px solid;
   padding: 20px !important;
-  margin-bottom: 10px;
+  margin-bottom: 20px !important;
   opacity: 1;
   background: rgba(255,255,255,.1);
 }
@@ -588,7 +588,7 @@ body {
  display: none !important;
 }
 
-.pc-mb-64 {margin: 0 0 64px 0;}
+.pc-mb-64 {margin: 0 0 45px 0;}
 
 .person__img {
   max-width: 188px;
