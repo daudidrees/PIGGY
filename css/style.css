@@ -729,67 +729,6 @@ body {
   text-decoration: underline;
 }
 
-/* Circle */
-
-/* div {
-  display: inline-block;
-  margin-right: 20px;
-  margin-top: 10px;
-}
-
-.circle {
-  overflow: hidden;
-  position: relative;
-  width: 10em;
-  height: 10em;
-  background: black;
-}
-
-.circle:before {
-  position: absolute;
-  width: inherit;
-  height: inherit;
-  border-radius: 50%;
-  background: black;
-  box-shadow: inset 0 0 0 1px white;
-  content: '';
-}
-
-.circle .cover {
-  position: absolute;
-  margin: 0 -50%;
-  width: 200%;
-  height: inherit;
-  transform-origin: 50% 0;
-  background: black;
-  animation: revealCircle 5s linear infinite forwards;
-} */
-
-/* @keyframes revealCircle {
-  to {
-    transform: rotate(180deg);
-  }
-}
-
-body {
-  background: black;
-}
-
-.chart {
-  position: relative;
-  margin: 30px auto 0 auto;
-
-}
-
-.tag {
-  width: 100%;
-  font-family: "Trebuchet", trebuchet, sans-serif;
-  text-align: center;
-  position: absolute;
-  color: #777777;
-} */
-
-
 /* Slider */
 
 .slider{
@@ -1716,6 +1655,22 @@ body {
   .piggy-col {
     flex-basis: 50% !important;
   }
+
+  .hero__btns {
+    justify-content: space-around;
+  }
+
+  .integration-title {
+    font-size: 30px;
+    line-height: 66px;
+    margin-bottom: 30px;
+  }
+
+  .integration-desc {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
 }
 
 @media (min-width: 575px) {
@@ -1753,6 +1708,14 @@ body {
 
   .faq-desc {
     font-size: 14px;
+  }
+
+  .slide img {
+    height: 400px;
+  }
+
+  .slides {
+    height: 400px;
   }
 }
 
@@ -1866,7 +1829,7 @@ body {
   .integration-title {
     font-size: 36px;
     line-height: 36px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 
   .team {
@@ -2028,6 +1991,10 @@ body {
 @media screen and (max-width: 430px) {
   .circle .text {
     left: -100px;
+  }
+
+  .hero__btns {
+    justify-content: space-between;
   }
 }
 
