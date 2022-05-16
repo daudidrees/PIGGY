@@ -1,2 +1,0 @@
-# PIGGY
-static website
