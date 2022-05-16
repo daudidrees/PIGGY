@@ -100,10 +100,12 @@ function closeNav() {
 
 // Mbl-Nav
 
-// document.querySelector('.sidenav').addEventListener('click', function(e) {
-//   e.preventDefault();
-//   if(e.target.classList.contains('nav-item')){
-//     const id = e.target.getAttribute("href");
-//     document.querySelector(id).scrollIntoView({behavior: "smooth"})
-//   }
-// });
+document.querySelector('.sidenav').addEventListener('click', function(e) {
+  e.preventDefault();
+  if(e.target.classList.contains('nav-item')){
+    const mblNav = e.target.getAttribute("href");
+    document.querySelector(mblNav).scrollIntoView({behavior: "smooth"});
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+  }
+});
