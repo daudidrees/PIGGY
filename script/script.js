@@ -86,7 +86,7 @@ setInterval(function () {
   if (counter > 4) {
     counter = 1;
   }
-}, 1500);
+}, 3000);
 
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
@@ -97,3 +97,13 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
 }
+
+// Mbl-Nav
+
+// document.querySelector('.sidenav').addEventListener('click', function(e) {
+//   e.preventDefault();
+//   if(e.target.classList.contains('nav-item')){
+//     const id = e.target.getAttribute("href");
+//     document.querySelector(id).scrollIntoView({behavior: "smooth"})
+//   }
+// });
