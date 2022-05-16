@@ -80,11 +80,21 @@ personContent.forEach((personEl, index) => {
 // Slider
 
 var counter = 1;
+var moveToLeft = false;
 setInterval(function () {
   document.getElementById('radio' + counter).checked = true;
-  counter++;
-  if (counter > 4) {
-    counter = 1;
+
+  if (moveToLeft) {
+    counter--;
+  }
+  else {
+    counter++;
+  }
+  if (counter > 3) {
+    moveToLeft=true
+  }
+  else if (counter == 1){
+    moveToLeft=false
   }
 }, 3000);
 
