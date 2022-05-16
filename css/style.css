@@ -647,17 +647,17 @@ body {
 }
 
 .person-one {
-  top: -19.5%;
+  top: -17.5%;
   left: 10%;
 }
 
 .person-two {
-  top: -19.5%;
+  top: -20.5%;
   left: 35%;
 }
 
 .person-three {
-  top: -19.5%;
+  top: -20.5%;
   left: 60%;
 }
 
@@ -672,7 +672,7 @@ body {
 }
 
 .person-six {
-  top: -19.5%;
+  top: -20.5%;
   left: 48%;
 }
 
@@ -1224,12 +1224,12 @@ body {
   }
 
   .person-two {
-    top: -17.5%;
+    top: -21.5%;
     left: 35%;
   }
 
   .person-three {
-    top: -17.5%;
+    top: -19.5%;
     left: 60%;
   }
 
@@ -1239,17 +1239,17 @@ body {
   }
 
   .person-five {
-    top: -17.5%;
+    top: -19.5%;
     left: 15%;
   }
 
   .person-six {
-    top: -17.5%;
+    top: -19.5%;
     left: 48%;
   }
 
   .person-seven {
-    top: -17.5%;
+    top: -19.5%;
     left: 81%;
   }
 
@@ -1475,6 +1475,40 @@ body {
     line-height: 32px;
   }
 
+  .person-one {
+    top: -15%;
+  }
+
+  .person-two {
+    top: -19%;
+    left: 35%;
+  }
+
+  .person-three {
+    top: -18%;
+    left: 60%;
+  }
+
+  .person-four {
+    top: -16.5%;
+    right: 10%;
+  }
+
+  .person-five {
+    top: -18%;
+    left: 14%;
+  }
+
+  .person-six {
+    top: -19%;
+    left: 47%;
+  }
+
+  .person-seven {
+    top: -18%;
+    left: 80%;
+  }
+
   .footer__nav--links {
     margin: 0 50px 0 0;
   }
@@ -1539,38 +1573,38 @@ body {
   }
 
   .person-one {
-    top: -16.5%;
+    top: -15%;
     left: 10%;
   }
 
   .person-two {
-    top: -16.5%;
+    top: -19%;
     left: 35%;
   }
 
   .person-three {
-    top: -16.5%;
+    top: -18%;
     left: 60%;
   }
 
   .person-four {
-    top: -16.5%;
+    top: -15%;
     right: 10%;
   }
 
   .person-five {
-    top: -16.5%;
-    left: 15%;
+    top: -17.5%;
+    left: 13%;
   }
 
   .person-six {
-    top: -16.5%;
-    left: 48%;
+    top: -17.5%;
+    left: 47%;
   }
 
   .person-seven {
-    top: -16.5%;
-    left: 81%;
+    top: -17.5%;
+    left: 80%;
   }
 
   .footer__nav--links {
@@ -1707,38 +1741,38 @@ body {
   }
 
   .person-one {
-    top: -15.5%;
+    top: -13.5%;
     left: 8%;
   }
 
   .person-two {
-    top: -15.5%;
+    top: -17.5%;
     left: 33%;
   }
 
   .person-three {
-    top: -15.5%;
+    top: -16.5%;
     left: 58%;
   }
 
   .person-four {
-    top: -15.5%;
+    top: -14.5%;
     right: 8%;
   }
 
   .person-five {
     top: -15.5%;
-    left: 13%;
+    left: 12%;
   }
 
   .person-six {
-    top: -15.5%;
-    left: 46%;
+    top: -16.5%;
+    left: 45%;
   }
 
   .person-seven {
-    top: -15.5%;
-    left: 79%;
+    top: -16.5%;
+    left: 78%;
   }
 
   .footer__social--info {
@@ -1908,6 +1942,43 @@ body {
   }
 }
 
+@media (max-width: 596px) {
+  .person-one {
+    top: -13.5%;
+    left: 8%;
+  }
+
+  .person-two {
+    top: -17.5%;
+    left: 32%;
+  }
+
+  .person-three {
+    top: -16.5%;
+    left: 57%;
+  }
+
+  .person-four {
+    top: -13.5%;
+    right: 9%;
+  }
+
+  .person-five {
+    top: -14.5%;
+    left: 12%;
+  }
+
+  .person-six {
+    top: -16.5%;
+    left: 45%;
+  }
+
+  .person-seven {
+    top: -15.5%;
+    left: 78%;
+  }
+}
+
 @media (min-width: 575px) {
   .person_desc__mobile {
     display: none !important;
@@ -1931,37 +2002,37 @@ body {
   }
 
   .person-one {
-    top: -14.5%;
+    top: -13.5%;
     left: 45%;
   }
 
   .person-two {
-    top: -14.5%;
+    top: -17.5%;
     left: 45%;
   }
 
   .person-three {
-    top: -14.5%;
+    top: -16.5%;
     left: 45%;
   }
 
   .person-four {
-    top: -14.5%;
+    top: -13.5%;
     right: 45%;
   }
 
   .person-five {
-    top: -14.5%;
+    top: -13.5%;
     left: 45%;
   }
 
   .person-six {
-    top: -14.5%;
+    top: -16.5%;
     left: 45%;
   }
 
   .person-seven {
-    top: -14.5%;
+    top: -15.5%;
     left: 45%;
   }
 
@@ -1985,6 +2056,19 @@ body {
   }
 
   .slide img {
+    height: 400px;
+  }
+
+  .slides {
+    height: 400px;
+  }
+
+  .person__social--media {
+    max-width: 150px;
+    margin: auto;
+  }
+
+  .slide img {
     height: 450px;
     padding: 18px 0;
   }
@@ -2000,6 +2084,37 @@ body {
 
   .slides-wrapper-phone {
     height: 440px;
+  }
+
+}
+
+@media (max-width: 533px) {
+  .person-one {
+    top: -12.5%;
+  }
+
+  .person-two {
+    top: -16.5%;
+  }
+
+  .person-three {
+    top: -15.5%;
+  }
+
+  .person-four {
+    top: -13.5%;
+  }
+
+  .person-five {
+    top: -13.5%;
+  }
+
+  .person-six {
+    top: -16.5%;
+  }
+
+  .person-seven {
+    top: -15.5%;
   }
 }
 
@@ -2182,12 +2297,49 @@ body {
   }
 
   .person-two {
-    top: -12.5%;
+    top: -16.5%;
     left: 44%;
   }
 
   .person-three {
+    top: -15.5%;
+    left: 44%;
+  }
+
+  .person-four {
     top: -12.5%;
+    left: 44%;
+  }
+
+  .person-five {
+    top: -13.5%;
+    left: 44%;
+  }
+
+  .person-six {
+    top: -16.5%;
+    left: 44%;
+  }
+
+  .person-seven {
+    top: -15.5%;
+    left: 44%;
+  }
+}
+
+@media (max-width: 494px) {
+  .person-one {
+    top: -11.5%;
+    left: 44%;
+  }
+
+  .person-two {
+    top: -16.5%;
+    left: 44%;
+  }
+
+  .person-three {
+    top: -15.5%;
     left: 44%;
   }
 
@@ -2202,12 +2354,19 @@ body {
   }
 
   .person-six {
-    top: -12.5%;
+    top: -16.5%;
     left: 44%;
   }
 
   .person-seven {
-    top: -12.5%;
+    top: -15.5%;
+    left: 44%;
+  }
+}
+
+@media (max-width: 490px) {
+  .person-seven {
+    top: -14.5%;
     left: 44%;
   }
 }
@@ -2215,41 +2374,73 @@ body {
 @media (max-width: 457px) {
   .person-one {
     top: -11.5%;
-    left: 42%;
+    left: 44%;
   }
 
   .person-two {
-    top: -11.5%;
-    left: 42%;
+    top: -16.5%;
+    left: 44%;
   }
 
   .person-three {
-    top: -11.5%;
-    left: 42%;
+    top: -14.5%;
+    left: 44%;
   }
 
   .person-four {
     top: -11.5%;
-    left: 42%;
+    left: 44%;
   }
 
   .person-five {
-    top: -11.5%;
-    left: 42%;
+    top: -12.5%;
+    left: 44%;
   }
 
   .person-six {
-    top: -11.5%;
-    left: 42%;
+    top: -15.5%;
+    left: 44%;
   }
 
   .person-seven {
-    top: -11.5%;
-    left: 42%;
+    top: -14.5%;
+    left: 44%;
   }
 }
 
-@media (max-width: 415px) {
+@media (max-width: 447px) {
+  .person-two {
+    top: -15.5%;
+    left: 44%;
+  }
+
+  .person-three {
+    top: -14.5%;
+    left: 44%;
+  }
+
+  .person-four {
+    top: -11.5%;
+    left: 44%;
+  }
+
+  .person-five {
+    top: -12%;
+    left: 44%;
+  }
+
+  .person-six {
+    top: -14%;
+    left: 44%;
+  }
+
+  .person-seven {
+    top: -13%;
+    left: 44%;
+  }
+}
+
+@media (max-width: 420px) {
   .circle .text {
     top: 14px;
     left: -25%;
@@ -2261,12 +2452,12 @@ body {
   }
 
   .person-two {
-    top: -11.5%;
+    top: -15.5%;
     left: 42%;
   }
 
   .person-three {
-    top: -11.5%;
+    top: -14.5%;
     left: 42%;
   }
 
@@ -2281,12 +2472,12 @@ body {
   }
 
   .person-six {
-    top: -11.5%;
+    top: -14.5%;
     left: 42%;
   }
 
   .person-seven {
-    top: -11.5%;
+    top: -13.5%;
     left: 42%;
   }
 }
@@ -2303,33 +2494,61 @@ body {
     top: 15px;
     left: -32%;
   }
+}
 
+@media (max-width: 389px) {
   .person-one {
-    top: -10.5%;
+    top: -10%;
   }
 
   .person-two {
-    top: -10.5%;
+    top: -14%;
   }
 
   .person-three {
-    top: -10.5%;
+    top: -12%;
   }
 
   .person-four {
-    top: -10.5%;
+    top: -10%;
+  }
+
+  .person-five {
+    top: -11%;
+  }
+
+  .person-six {
+    top: -13%;
+  }
+
+  .person-seven {
+    top: -12%;
+  }
+}
+
+@media (max-width: 374px) {
+  .person-four {
+    top: -9.5%;
   }
 
   .person-five {
     top: -10.5%;
   }
 
-  .person-six {
-    top: -10.5%;
-  }
-
   .person-seven {
-    top: -10.5%;
+    top: -11%;
+  }
+}
+
+@media (max-width: 369px) {
+  .person-one {
+    top: -9.5%;
+  }
+}
+
+@media (max-width: 363px) {
+  .person-one {
+    top: -8.5%;
   }
 }
 
@@ -2353,26 +2572,26 @@ body {
   }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 341px) {
   .circle .text {
     top: 15px;
     left: -41%;
   }
 
   .person-one {
-    top: -9.5%;
+    top: -8.5%;
   }
 
   .person-two {
-    top: -9.5%;
+    top: -13.5%;
   }
 
   .person-three {
-    top: -9.5%;
+    top: -11.5%;
   }
 
   .person-four {
-    top: -9.5%;
+    top: -8.5%;
   }
 
   .person-five {
@@ -2380,11 +2599,11 @@ body {
   }
 
   .person-six {
-    top: -9.5%;
+    top: -12.5%;
   }
 
   .person-seven {
-    top: -9.5%;
+    top: -10.5%;
   }
 }
 
@@ -2392,6 +2611,24 @@ body {
   .circle .text {
     top: 15px;
     left: -44%;
+  }
+
+  .person-one {
+    top: -7.5%;
+  }
+
+  .person-two {
+    top: -12.5%;
+  }
+
+  .person-six {
+    top: -11.5%;
+    left: 40%;
+  }
+
+  .person-seven {
+    top: -10.5%;
+    left: 40%;
   }
 }
 
