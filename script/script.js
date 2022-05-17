@@ -79,24 +79,24 @@ personContent.forEach((personEl, index) => {
 
 // Slider
 
-var counter = 1;
-var moveToLeft = false;
-setInterval(function () {
-  document.getElementById('radio' + counter).checked = true;
+// var counter = 1;
+// var moveToLeft = false;
+// setInterval(function () {
+//   document.getElementById('radio' + counter).checked = true;
 
-  if (moveToLeft) {
-    counter--;
-  }
-  else {
-    counter++;
-  }
-  if (counter > 3) {
-    moveToLeft=true
-  }
-  else if (counter == 1){
-    moveToLeft=false
-  }
-}, 3000);
+//   if (moveToLeft) {
+//     counter--;
+//   }
+//   else {
+//     counter++;
+//   }
+//   if (counter > 3) {
+//     moveToLeft=true
+//   }
+//   else if (counter == 1){
+//     moveToLeft=false
+//   }
+// }, 3000);
 
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
@@ -117,5 +117,16 @@ document.querySelector('.sidenav').addEventListener('click', function(e) {
     document.querySelector(mblNav).scrollIntoView({behavior: "smooth"});
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
+  }
+});
+
+var swiper = new Swiper(".mySwiper", {
+  spaceBetween: 0,
+  centeredSlides: true,
+  watchSlidesProgress: true,
+  slidesPerView: 1,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
   }
 });

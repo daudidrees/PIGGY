@@ -854,7 +854,7 @@ body {
 
 /* Slider */
 
-.slider {
+/* .slider {
   width: 100%;
   height: 100%;
   border-radius: 10px;
@@ -879,8 +879,10 @@ body {
 }
 
 .slides {
+  overflow: hidden;
   width: 500%;
   height: 800px;
+  border: 1px solid red;
   display: flex;
 }
 
@@ -899,7 +901,7 @@ body {
   padding-bottom: 40px;
   width: 100%;
   height: 800px;
-}
+} */
 
 /*css for manual slide navigation*/
 
@@ -2746,3 +2748,42 @@ body {
     left: -145px;
   }
 }
+
+
+
+
+.swiper {
+  /* margin: 100px auto; */
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.slider {
+ position: relative;
+ width: 430px;
+}
+
+.mySwiper  {
+  position: absolute !important;
+  top: 0;
+  right: 0;
+}
+
+.swiper-slide {
+  /* border: 3px solid green; */
+  width: 100% !important;
+}
+
+/* .slides-wrapper-phone {
+  z-index: 231232;
+  position: relative;
+} */
