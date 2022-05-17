@@ -1819,6 +1819,7 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+
   .btn__yellow {
     padding: 12px 10px;
     font-size: 11px;
@@ -1923,6 +1924,11 @@ body {
     line-height: 24px;
     margin-bottom: 30px;
   }
+
+/*
+  .team-break {
+    display: none !important;
+  } */
 }
 
 @media (max-width: 596px) {
