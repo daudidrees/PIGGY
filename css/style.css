@@ -854,132 +854,33 @@ body {
 
 /* Slider */
 
-/* .slider {
+.swiper {
   width: 100%;
   height: 100%;
-  border-radius: 10px;
-  overflow: hidden;
+}
+
+.swiper-slide {
   display: flex;
-  justify-content: center;
   align-items: center;
-}
-
-.slides-wrapper {
-  position: relative;
-}
-
-.slides-wrapper-phone {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  height: 760px;
-  z-index: -1;
-}
-
-.slides {
-  overflow: hidden;
-  width: 500%;
-  height: 800px;
-  border: 1px solid red;
-  display: flex;
-}
-
-.slides input {
-  display: none;
-}
-
-.slide {
-  opacity: 1;
-  width: 20%;
-  transition: 2s;
-}
-
-.slide img {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  width: 100%;
-  height: 800px;
-} */
-
-/*css for manual slide navigation*/
-
-/* .navigation-manual{
-  position: absolute;
-  width: 800px;
-  margin-top: -40px;
-  display: flex;
   justify-content: center;
-} */
-
-.manual-btn {
-  border: 2px solid rgb(44, 45, 48);
-  padding: 5px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 1s;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
 }
 
-.manual-btn:not(:last-child) {
-  margin-right: 40px;
+.slider {
+ position: relative;
+ width: 430px;
 }
 
-.manual-btn:hover {
-  background: rgb(44, 45, 48);
+.mySwiper  {
+  position: absolute !important;
+  top: 0;
+  right: 0;
 }
 
-#radio1:checked ~ .first {
-  margin-left: 0;
-}
-
-#radio2:checked ~ .first {
-  margin-left: -20%;
-}
-
-#radio3:checked ~ .first {
-  margin-left: -40%;
-}
-
-#radio4:checked ~ .first {
-  margin-left: -60%;
-}
-
-/*css for automatic navigation*/
-
-.navigation-auto {
-  display: flex;
-  position: absolute;
-  /* width: 800px; */
-  justify-content: center;
-  margin-top: 460px;
-}
-
-.navigation-auto div {
-  border: 2px solid rgb(44, 45, 48);
-  padding: 5px;
-  border-radius: 10px;
-  transition: 1s;
-}
-
-.navigation-auto div:not(:last-child) {
-  margin-right: 40px;
-}
-
-#radio1:checked ~ .navigation-auto .auto-btn1 {
-  background: rgb(44, 45, 48);
-}
-
-#radio2:checked ~ .navigation-auto .auto-btn2 {
-  background: rgb(44, 45, 48);
-}
-
-#radio3:checked ~ .navigation-auto .auto-btn3 {
-  background: rgb(44, 45, 48);
-}
-
-#radio4:checked ~ .navigation-auto .auto-btn4 {
-  background: rgb(44, 45, 48);
+.swiper-slide {
+  width: 100% !important;
 }
 
 /* Nav */
@@ -995,7 +896,7 @@ body {
   transition-delay: 0.5s;
 }
 
-@media (min-width: 769px) and (max-width: 992px) {
+/* @media (min-width: 769px) and (max-width: 992px) {
   .slider {
     height: 100%;
   }
@@ -1007,7 +908,7 @@ body {
   .slides {
     height: 600px;
   }
-}
+} */
 
 @media (max-width: 990px) {
   .nav {
@@ -1158,14 +1059,11 @@ body {
     font-size: 18px;
   }
 
-  .btn__yellow-border {
-    padding: 17px 28px;
-    font-size: 18px;
-  }
-
-  .btn__grey {
-    padding: 17px 45px;
-    font-size: 18px;
+  .btn__yellow-border,
+  .btn__yellow ,
+  .btn__grey{
+    padding: 14px 15px;
+    font-size: 16px;
   }
 
   .overview__showcase {
@@ -2749,41 +2647,57 @@ body {
   }
 }
 
-
-
-
-.swiper {
-  /* margin: 100px auto; */
-  width: 100%;
-  height: 100%;
+.person__social--media {
+  visibility: hidden;
 }
 
-.swiper-slide {
+
+.banner-content {
+  max-width : 64%;
+}
+
+.banner__wrapper {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 22px;
-  font-weight: bold;
-  color: #fff;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.slider-wrapper {
+  width: 30%;
 }
 
-.slider {
- position: relative;
- width: 430px;
+.slider,
+.slides-wrapper-phone{
+  width: 100%;
 }
 
-.mySwiper  {
-  position: absolute !important;
-  top: 0;
-  right: 0;
+.swiper-slide img {
+  width: 100%;
+  height: 94%;
 }
 
-.swiper-slide {
-  /* border: 3px solid green; */
-  width: 100% !important;
+@media (max-width: 768px) {
+  .banner__wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slider-wrapper {
+    width: 50%;
+  }
+  .banner-content {
+    max-width : 100%;
+  }
 }
 
-/* .slides-wrapper-phone {
-  z-index: 231232;
-  position: relative;
-} */
+@media (max-width: 500px) {
+  .slider-wrapper {
+    width: 230px;
+    margin: 0 auto;
+  }
+
+  .slider,
+  .slides-wrapper-phone{
+    width: 230px !important;
+  }
+}

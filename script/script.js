@@ -120,13 +120,11 @@ document.querySelector('.sidenav').addEventListener('click', function(e) {
   }
 });
 
-var swiper = new Swiper(".mySwiper", {
-  spaceBetween: 0,
-  centeredSlides: true,
-  watchSlidesProgress: true,
-  slidesPerView: 1,
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  }
+
+const about = document.getElementById('footer')
+const learnMore = document.getElementById('join')
+
+learnMore.addEventListener("click", function (e) {
+  e.preventDefault();
+  about.scrollIntoView({behavior: "smooth"})
 });
