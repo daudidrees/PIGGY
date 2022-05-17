@@ -1886,7 +1886,7 @@ body {
     padding: 0 10px 0 0;
   }
 
-  .btn-wallet > a > img {
+  .btn-wallet > img {
     width: 250px;
   }
 
@@ -1894,8 +1894,12 @@ body {
     padding: 16.5px 56px;
   }
 
-  .btn-wallet-logo > a > img {
+  .btn-wallet-logo > img {
     width: 176px;
+  }
+
+  .btn-wallet {
+    margin-bottom: 0;
   }
 
   .piggy-col {
