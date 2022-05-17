@@ -648,37 +648,37 @@ body {
 }
 
 .person-one {
-  top: -17.5%;
+  top: -26.5%;
   left: 10%;
 }
 
 .person-two {
-  top: -20.5%;
+  top: -35.5%;
   left: 35%;
 }
 
 .person-three {
-  top: -20.5%;
+  top: -35.5%;
   left: 60%;
 }
 
 .person-four {
-  top: -19.5%;
+  top: -30.5%;
   right: 10%;
 }
 
 .person-five {
-  top: -19.5%;
+  top: -30.5%;
   left: 15%;
 }
 
 .person-six {
-  top: -20.5%;
+  top: -35.5%;
   left: 48%;
 }
 
 .person-seven {
-  top: -19.5%;
+  top: -30.5%;
   left: 81%;
 }
 
@@ -1145,37 +1145,37 @@ body {
   }
 
   .person-one {
-    top: -17.5%;
+    top: -27.0%;
     left: 10%;
   }
 
   .person-two {
-    top: -21.5%;
+    top: -36%;
     left: 35%;
   }
 
   .person-three {
-    top: -19.5%;
+    top: -31%;
     left: 60%;
   }
 
   .person-four {
-    top: -17.5%;
+    top: -27%;
     right: 10%;
   }
 
   .person-five {
-    top: -19.5%;
+    top: -30.5%;
     left: 15%;
   }
 
   .person-six {
-    top: -19.5%;
+    top: -30.5%;
     left: 48%;
   }
 
   .person-seven {
-    top: -19.5%;
+    top: -31%;
     left: 81%;
   }
 
@@ -1371,6 +1371,16 @@ body {
   .hero__btns {
     max-width: 460px;
   }
+
+  .person-one {
+    top: -24%;
+    left: 10%;
+  }
+
+  .person-two {
+    top: -31%;
+    left: 35%;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -1410,37 +1420,45 @@ body {
     line-height: 32px;
   }
 
+  .person__position {
+    font-size: 16px;
+  }
+
+  .person__desc {
+    font-size: 18px;
+  }
+
   .person-one {
-    top: -15%;
+    top: -24%;
   }
 
   .person-two {
-    top: -19%;
+    top: -31%;
     left: 35%;
   }
 
   .person-three {
-    top: -18%;
+    top: -31%;
     left: 60%;
   }
 
   .person-four {
-    top: -16.5%;
+    top: -24%;
     right: 10%;
   }
 
   .person-five {
-    top: -18%;
+    top: -27%;
     left: 14%;
   }
 
   .person-six {
-    top: -19%;
+    top: -31%;
     left: 47%;
   }
 
   .person-seven {
-    top: -18%;
+    top: -31%;
     left: 80%;
   }
 
@@ -1508,64 +1526,68 @@ body {
   }
 
   .person-one {
-    top: -15%;
+    top: -24%;
     left: 10%;
   }
 
   .person-two {
-    top: -19%;
+    top: -31%;
     left: 35%;
   }
 
   .person-three {
-    top: -18%;
+    top: -31%;
     left: 60%;
   }
 
   .person-four {
-    top: -15%;
+    top: -24%;
     right: 10%;
+
   }
 
   .person-five {
-    top: -17.5%;
+    top: -26.5%;
     left: 13%;
   }
 
   .person-six {
-    top: -17.5%;
+    top: -30.5%;
     left: 47%;
   }
 
   .person-seven {
-    top: -17.5%;
+    top: -30.5%;
     left: 80%;
   }
 
   .footer__nav--links {
     margin: 0 30px 0 0;
   }
+
+  .person__position {
+    font-size: 15px;
+  }
+
+  .person__desc {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  /* .hero {
-    margin: 0 0 100px 0;
+
+  .banner__wrapper {
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
   }
 
-  .hero__row {
-    flex-direction: column;
-    text-align: center;
+  .slider-wrapper {
+    width: 50% !important;
   }
-
-  .hero__left--section {
-    margin: 0 0 30px 0;
+  .banner-content {
+    max-width : 100% !important;
   }
-
-  .hero__right--section {
-    max-width: 250px;
-    height: 500px;
-    margin: auto;
-  } */
 
   .overview__showcase {
     text-align: center;
@@ -1673,40 +1695,41 @@ body {
 
   .person__position {
     font-size: 11px;
+    line-height: 15px;
   }
 
   .person-one {
-    top: -13.5%;
+    top: -21.5%;
     left: 8%;
   }
 
   .person-two {
-    top: -17.5%;
+    top: -30.5%;
     left: 33%;
   }
 
   .person-three {
-    top: -16.5%;
+    top: -26.5%;
     left: 58%;
   }
 
   .person-four {
-    top: -14.5%;
+    top: -21.5%;
     right: 8%;
   }
 
   .person-five {
-    top: -15.5%;
+    top: -23.5%;
     left: 12%;
   }
 
   .person-six {
-    top: -16.5%;
+    top: -26.5%;
     left: 45%;
   }
 
   .person-seven {
-    top: -16.5%;
+    top: -26.5%;
     left: 78%;
   }
 
@@ -1782,6 +1805,16 @@ body {
 
   .hero__btns {
     max-width: 100%;
+  }
+
+  .slider-wrapper {
+    width: 50% !important;
+    margin: 0 auto !important;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
   }
 }
 
@@ -2073,7 +2106,7 @@ body {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 575px) {
   .slider-wrapper {
     width: 230px !important;
     margin: 0 auto !important;
@@ -2727,16 +2760,5 @@ body {
 }
 
 @media (max-width: 768px) {
-  .banner__wrapper {
-    flex-direction: column !important;
-    justify-content: center !important;
-    align-items: center !important;
-  }
 
-  .slider-wrapper {
-    width: 50% !important;
-  }
-  .banner-content {
-    max-width : 100% !important;
-  }
 }
