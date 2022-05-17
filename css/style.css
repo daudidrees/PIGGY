@@ -884,6 +884,30 @@ body {
   width: 100% !important;
 }
 
+.banner-content {
+  max-width : 64% !important;
+}
+
+.banner__wrapper {
+  display: flex !important;
+  justify-content: space-between !important;
+  padding: 0 20px !important;
+}
+
+.slider-wrapper {
+  width: 30% !important;
+}
+
+.slider,
+.slides-wrapper-phone{
+  width: 100% !important;
+}
+
+.swiper-slide img {
+  width: 100% !important;
+  height: 94% !important;
+}
+
 /* Nav */
 
 .mobile-nav,
@@ -897,19 +921,10 @@ body {
   transition-delay: 0.5s;
 }
 
-/* @media (min-width: 769px) and (max-width: 992px) {
-  .slider {
-    height: 100%;
-  }
+.person__social--media {
+  visibility: hidden;
+}
 
-  .slide img {
-    height: 600px;
-  }
-
-  .slides {
-    height: 600px;
-  }
-} */
 
 @media (max-width: 990px) {
   .nav {
@@ -1037,6 +1052,7 @@ body {
 }
 
 @media screen and (max-width: 1280px) {
+
   .hero {
     padding-top: 0;
     margin-bottom: 0;
@@ -1070,6 +1086,10 @@ body {
   .btn__grey{
     padding: 14px 15px;
     font-size: 16px;
+  }
+
+  .btn__grey {
+    padding: 14px 22px;
   }
 
   .overview__showcase {
@@ -1161,6 +1181,10 @@ body {
 
   .footer__nav--links {
     margin: 0 60px 0 0;
+  }
+
+  .hero__btns {
+    max-width: 450px;
   }
 }
 
@@ -1351,7 +1375,7 @@ body {
 
 @media screen and (max-width: 992px) {
   .hero__heading {
-    font-size: 34px;
+    font-size: 32px;
     line-height: 38px;
   }
 
@@ -2049,6 +2073,18 @@ body {
   }
 }
 
+@media (max-width: 500px) {
+  .slider-wrapper {
+    width: 230px !important;
+    margin: 0 auto !important;
+  }
+
+  .slider,
+  .slides-wrapper-phone{
+    width: 230px !important;
+  }
+}
+
 @media (max-width: 480px) {
   .stake-desc,
   .explore-desc,
@@ -2690,40 +2726,6 @@ body {
   }
 }
 
-.person__social--media {
-  visibility: hidden;
-}
-
-
-.banner-content {
-  max-width : 64% !important;
-}
-
-.banner__wrapper {
-  display: flex !important;
-  justify-content: space-between !important;
-  padding: 0 20px !important;
-}
-
-.slider-wrapper {
-  width: 30% !important;
-}
-
-.slider,
-.slides-wrapper-phone{
-  width: 100% !important;
-}
-
-.swiper-slide img {
-  width: 100% !important;
-  height: 94% !important;
-}
-
-@media (max-width: 1280px) {
-
-
-}
-
 @media (max-width: 768px) {
   .banner__wrapper {
     flex-direction: column !important;
@@ -2736,17 +2738,5 @@ body {
   }
   .banner-content {
     max-width : 100% !important;
-  }
-}
-
-@media (max-width: 500px) {
-  .slider-wrapper {
-    width: 230px !important;
-    margin: 0 auto !important;
-  }
-
-  .slider,
-  .slides-wrapper-phone{
-    width: 230px !important;
   }
 }
